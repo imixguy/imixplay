@@ -27,8 +27,8 @@
             <url>https://raw.github.com/buzheng/ckfinder-mvn-repo/master/</url>
         </repository>
         <repository>
-            <id>node-on-github</id>
-            <url>https://github.com/IrinkaMisha/node/raw/repository/master/</url>
+            <id>IrinkaMisha-mvn-repository</id>
+            <url>https://github.com/IrinkaMisha/mvn_repository/raw/repository/master/</url>
         </repository>
 
     </repositories>
