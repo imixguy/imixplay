@@ -16,7 +16,7 @@
     
     <servlet>
         <servlet-name>StartServlet</servlet-name>
-        <servlet-class>rw.ktc.cms.web.servlet.StartServlet</servlet-class>
+        <servlet-class>by.imix.cms.web.servlet.StartServlet</servlet-class>
         <load-on-startup>2</load-on-startup>
     </servlet>
     <servlet-mapping>

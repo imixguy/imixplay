@@ -3,7 +3,7 @@
     <modelVersion>4.0.0</modelVersion>
 
 
-    <groupId>rw.ktc.cms</groupId>
+    <groupId>by.imix.cms</groupId>
     <artifactId>webmytest</artifactId>
     <packaging>war</packaging>
     <version>1.0.0</version>
@@ -57,7 +57,7 @@
         <version>1.4.187</version>
         </dependency>-->
         <!--<dependency>
-        <groupId>rw.ktc.cms</groupId>
+        <groupId>by.imix.cms</groupId>
         <artifactId>oauth-server</artifactId>
         <version>0.1</version>
         </dependency>-->

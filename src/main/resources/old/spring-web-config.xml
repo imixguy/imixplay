@@ -18,10 +18,10 @@
     <mvc:annotation-driven/>
 
     <!--Логин контраллеры, кабинет пользователя и изменение данных пользователя-->
-    <context:component-scan base-package="rw.ktc.cms.web.controller.login"/>
+    <context:component-scan base-package="by.imix.cms.web.controller.login"/>
     <!--Контраллер закачки файлов-->
-    <context:component-scan base-package="rw.ktc.cms.web.controller.other"/>
-    <context:component-scan base-package="rw.ktc.cms.service"/>
+    <context:component-scan base-package="by.imix.cms.web.controller.other"/>
+    <context:component-scan base-package="by.imix.cms.service"/>
 
 
     <!--Включаем разбор JSON при вытаскивании данных из БД-->

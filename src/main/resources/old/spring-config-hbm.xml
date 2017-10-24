@@ -10,9 +10,9 @@
     <context:property-placeholder location="classpath:jdbc.properties"/>
 
     <!--сервис работы с ядром CMS (Node, Rules, ...)-->
-    <context:component-scan base-package="rw.ktc.cms.nodedata.service"/>
+    <context:component-scan base-package="by.imix.cms.nodedata.service"/>
     <!--сервис работы с пользователями-->
-    <context:component-scan base-package="rw.ktc.cms.usermanager.service"/>
+    <context:component-scan base-package="by.imix.cms.usermanager.service"/>
 
     <!--настройка базы данных-->
     <bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">
@@ -43,7 +43,7 @@
     <bean id="listHibPackageNode" class="java.util.ArrayList">
         <constructor-arg>
             <list>
-                <value>rw.ktc.cms.nodedata</value>
+                <value>by.imix.cms.nodedata</value>
             </list>
         </constructor-arg>
     </bean>
@@ -52,7 +52,7 @@
     <bean id="listHibPackageUser" class="java.util.ArrayList">
         <constructor-arg>
             <list>
-                <value>rw.ktc.cms.usermanager</value>
+                <value>by.imix.cms.usermanager</value>
             </list>
         </constructor-arg>
     </bean>
@@ -93,8 +93,8 @@
     <!--</property>-->
     <!--<property name="packagesToScan">-->
     <!--<list>-->
-    <!--<value>rw.ktcms.nodedata</value>-->
-    <!--<value>rw.ktcms.usermanager</value>-->
+    <!--<value>by.imix.cms.nodedata</value>-->
+    <!--<value>by.imix.cms.usermanager</value>-->
     <!--</list>-->
     <!--</property>-->
 
@@ -125,11 +125,11 @@
         <!--<property name="packagesToScan" ref="listHibPackageH">-->
         <property name="packagesToScan" ref="listHibPackageFH">
             <!--<list>-->
-            <!--<value>rw.ktcms.nodedata</value>-->
-            <!--<value>rw.ktcms.usermanager</value>-->
+            <!--<value>by.imix.cms.nodedata</value>-->
+            <!--<value>by.imix.cms.usermanager</value>-->
             <!--для модуля interfaceUSOGDP-->
-            <!--<value>rw.ktcsogdp.filters.rasprvagon</value>-->
-            <!--<value>rw.ktcsogdp.modelpoligon.ks.settingsProgramm.entity</value>-->
+            <!--<value>by.imix.csogdp.filters.rasprvagon</value>-->
+            <!--<value>by.imix.csogdp.modelpoligon.ks.settingsProgramm.entity</value>-->
             <!--для модуля servicechange-->
             <!--<value>by.nulay.changer.vk</value>-->
             <!--<value>by.nulay.changer.films</value>-->

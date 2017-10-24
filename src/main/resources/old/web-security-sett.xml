@@ -68,9 +68,9 @@
         <!--<intercept-url pattern="/messagebroker/**" access="hasRole('ROLE_AUTH_DATA')" />-->
         <!--<intercept-url pattern="/usogdp.html" access="hasRole('ROLE_AUTH_DATA')" />-->
         <!--<intercept-url pattern="/admin/**" access="hasRole('administrator')" />-->
-        <intercept-url pattern="/src/rw/ktc/cms/web/form" access="permitAll" />
+        <intercept-url pattern="/src/by/imix/cms/web/form" access="permitAll" />
         <!--<intercept-url pattern="/index.jsp" access="permitAll" />-->
-        <intercept-url pattern="/rw/ktc" access="permitAll" />
+        <intercept-url pattern="/by/imix" access="permitAll" />
     </http>
 
     <!--<user-service id="userService">-->
@@ -81,7 +81,7 @@
     <!--<user name="admin" password="admin"-->
     <!--authorities="unregisteruser,administrator"/>-->
     <!--</user-service>-->
-    <context:component-scan base-package="rw.ktc.cms.web.security"/>
+    <context:component-scan base-package="by.imix.cms.web.security"/>
 
     <authentication-manager alias="authenticationManager">
         <!--<authentication-provider user-service-ref="userService" />-->
