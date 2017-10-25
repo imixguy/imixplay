@@ -10,11 +10,6 @@
 /*!40014 SET FOREIGN_KEY_CHECKS=0 */;
 
 
-# Host: localhost    Database: testuser2
-# ------------------------------------------------------
-# Server version 5.6.26
-
-
 #
 # Dumping data for table big_property
 #
