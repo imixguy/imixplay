@@ -1736,7 +1736,7 @@ INSERT INTO `node_property` VALUES (3308,9751,'cont[0].type','container',NULL);
 INSERT INTO `node_property` VALUES (3309,9751,'cont[0].content','6901',NULL);
 INSERT INTO `node_property` VALUES (3310,9751,'cont[1].name','spokBlock2',NULL);
 INSERT INTO `node_property` VALUES (3311,9751,'cont[1].type','jsp',NULL);
-INSERT INTO `node_property` VALUES (3312,9751,'cont[1].content','/WEB-INF/views/templates/ksuprbch/header.jsp',NULL);
+INSERT INTO `node_property` VALUES (3312,9751,'cont[1].content','/WEB-INF/views/templates/imixcms/header.jsp',NULL);
 INSERT INTO `node_property` VALUES (3351,9900,'name','Страница отобр. дин. сод.2222',NULL);
 INSERT INTO `node_property` VALUES (3352,9900,'type','dynamicContent',NULL);
 INSERT INTO `node_property` VALUES (3353,9900,'content','Страница отобр. дин. сод.2222',NULL);

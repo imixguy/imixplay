@@ -33,7 +33,7 @@
     <!--подключение шаблонного представления tiles-->
     <bean id="tilesConfigurer" class="org.springframework.web.servlet.view.tiles3.TilesConfigurer">
         <!--<property name="definitions" value="/WEB-INF/views/templates/ksuprbch/tiles-defs.xml, /WEB-INF/tiles-defs-admincontent.xml , /WEB-INF/tiles-defs-modules-rolemanager.xml" />-->
-        <property name="definitions" value="/WEB-INF/views/templates/ksuprbch/tiles-defs.xml, /WEB-INF/views/tiles-defs-admincontent.xml" />
+        <property name="definitions" value="/WEB-INF/views/templates/imixcms/tiles-defs.xml, /WEB-INF/views/tiles-defs-admincontent.xml" />
         <property name="preparerFactoryClass" value="org.springframework.web.servlet.view.tiles3.SpringBeanPreparerFactory"/>
     </bean>
 
