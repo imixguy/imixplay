@@ -6,6 +6,6 @@
 <!--<import resource="initDataBase-config.xml"/>-->
 <import resource="classpath:spring-app-config.xml"/>
 
-<import resource="classpath:spring-app-config.xml"/>
+<!--<import resource="classpath:spring-app-config.xml"/>-->
 
 </beans>
