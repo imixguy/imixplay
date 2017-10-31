@@ -7,9 +7,11 @@
        http://www.springframework.org/schema/mvc http://www.springframework.org/schema/mvc/spring-mvc.xsd
        http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd">
 
-    <import resource="spring-config-hbm.xml"/>
-    <import resource="web-security-sett.xml"/>
-    <import resource="spring-admincontroller.xml"/>
+    <!--It is old realisation dont use anymore-->
+
+    <import resource="classpath*:spring-config-hbm.xml"/>
+    <import resource="classpath*:web-security-sett.xml"/>
+    <import resource="classpath*:spring-admincontroller.xml"/>
 
 
     <!--статические ресурсы не обрабатываются через диспетчер-сервлет-->
