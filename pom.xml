@@ -320,7 +320,7 @@
 
         <dependency>
             <groupId>org.apache.tiles</groupId>
-            <artifactId>tiles-core</artifactId>
+            <artifactId>tiles-extras</artifactId>
             <version>${tiles.version}</version>
             <exclusions>
                 <exclusion>
@@ -328,8 +328,21 @@
                     <artifactId>jcl-over-slf4j</artifactId>
                 </exclusion>
             </exclusions>
-
         </dependency>
+
+
+        <!--<dependency>-->
+            <!--<groupId>org.apache.tiles</groupId>-->
+            <!--<artifactId>tiles-core</artifactId>-->
+            <!--<version>${tiles.version}</version>-->
+            <!--<exclusions>-->
+                <!--<exclusion>-->
+                    <!--<groupId>org.slf4j</groupId>-->
+                    <!--<artifactId>jcl-over-slf4j</artifactId>-->
+                <!--</exclusion>-->
+            <!--</exclusions>-->
+
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.apache.tiles</groupId>
@@ -344,12 +357,12 @@
             <version>2.0.7.RELEASE</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.tiles</groupId>
-            <artifactId>tiles-jsp</artifactId>
-            <version>${tiles.version}</version>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.tiles</groupId>-->
+            <!--<artifactId>tiles-jsp</artifactId>-->
+            <!--<version>${tiles.version}</version>-->
 
-        </dependency>
+        <!--</dependency>-->
 
         <dependency>
             <groupId>org.apache.tiles</groupId>
@@ -358,12 +371,12 @@
 
         </dependency>
 
-        <dependency>
-            <groupId>org.apache.tiles</groupId>
-            <artifactId>tiles-compat</artifactId>
-            <version>${tiles.version}</version>
+        <!--<dependency>-->
+            <!--<groupId>org.apache.tiles</groupId>-->
+            <!--<artifactId>tiles-compat</artifactId>-->
+            <!--<version>${tiles.version}</version>-->
 
-        </dependency>
+        <!--</dependency>-->
 
         <!--Bridge for manage spring-->
         <dependency>
