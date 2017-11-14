@@ -48,7 +48,7 @@
             <groupId>by.imix.cms</groupId>
             <artifactId>cmscore-web</artifactId>
             <!--<version>${imixcms.version}</version>-->
-            <version>1.1.0-SNAPSHOT</version>
+            <version>1.0.0</version>
             <type>war</type>
         </dependency>
 
