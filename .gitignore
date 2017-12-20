@@ -23,5 +23,3 @@ overlays/
 target/
 *.log
 
-#Other
-gamemodule/
