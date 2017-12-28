@@ -57,13 +57,13 @@
             <!--<version>1.0.0</version>-->
             <type>war</type>
         </dependency>
-        <!--<dependency>-->
-            <!--<groupId>by.imix.games</groupId>-->
-            <!--<artifactId>gamemodule-web</artifactId>-->
-            <!--<version>${imixcms.version}</version>-->
-            <!--&lt;!&ndash;<version>1.0.0</version>&ndash;&gt;-->
-            <!--<type>war</type>-->
-        <!--</dependency>-->
+        <dependency>
+            <groupId>by.imix.games</groupId>
+            <artifactId>gamemodule-web</artifactId>
+            <version>${imixcms.version}</version>
+            <!--<version>1.0.0</version>-->
+            <type>war</type>
+        </dependency>
 
         <!--<dependency>
         <groupId>com.h2database</groupId>
@@ -370,13 +370,13 @@
             <version>2.0.7.RELEASE</version>
         </dependency>
 
-        <dependency>
-            <groupId>org.springframework</groupId>
-            <artifactId>spring-framework-bom</artifactId>
-            <version>${spring.version}</version>
-            <type>pom</type>
-            <scope>import</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework</groupId>-->
+            <!--<artifactId>spring-framework-bom</artifactId>-->
+            <!--<version>${spring.version}</version>-->
+            <!--<type>pom</type>-->
+            <!--<scope>import</scope>-->
+        <!--</dependency>-->
 
         <!--<dependency>-->
             <!--<groupId>org.apache.tiles</groupId>-->
@@ -399,7 +399,7 @@
 
         <!--</dependency>-->
 
-        <!--Bridge for manage spring-->
+        <!--Bridge for manage spring logging-->
         <dependency>
             <groupId>org.slf4j</groupId>
             <artifactId>jcl-over-slf4j</artifactId>
