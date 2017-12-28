@@ -13,7 +13,7 @@
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <java.version>1.7</java.version>
-        <spring.version>4.1.7.RELEASE</spring.version>
+        <spring.version>4.2.0.RELEASE</spring.version>
         <spring.security.version>4.0.1.RELEASE</spring.security.version>
         <tiles.version>3.0.5</tiles.version>
         <jackson.version>2.6.0</jackson.version>
@@ -49,13 +49,7 @@
             <artifactId>gamemodule</artifactId>
             <version>${imixcms.version}</version>
         </dependency>
-        <dependency>
-            <groupId>by.imix.games</groupId>
-            <artifactId>gamemodule-web</artifactId>
-            <version>${imixcms.version}</version>
-            <!--<version>1.0.0</version>-->
-            <type>war</type>
-        </dependency>
+
         <dependency>
             <groupId>by.imix.cms</groupId>
             <artifactId>cmscore-web</artifactId>
@@ -63,6 +57,13 @@
             <!--<version>1.0.0</version>-->
             <type>war</type>
         </dependency>
+        <!--<dependency>-->
+            <!--<groupId>by.imix.games</groupId>-->
+            <!--<artifactId>gamemodule-web</artifactId>-->
+            <!--<version>${imixcms.version}</version>-->
+            <!--&lt;!&ndash;<version>1.0.0</version>&ndash;&gt;-->
+            <!--<type>war</type>-->
+        <!--</dependency>-->
 
         <!--<dependency>
         <groupId>com.h2database</groupId>
@@ -367,6 +368,14 @@
             <groupId>org.springframework.security.oauth</groupId>
             <artifactId>spring-security-oauth2</artifactId>
             <version>2.0.7.RELEASE</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-framework-bom</artifactId>
+            <version>${spring.version}</version>
+            <type>pom</type>
+            <scope>import</scope>
         </dependency>
 
         <!--<dependency>-->

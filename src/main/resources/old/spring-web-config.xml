@@ -11,7 +11,7 @@
 
     <import resource="classpath*:spring-config-hbm.xml"/>
     <import resource="classpath*:web-security-sett.xml"/>
-    <import resource="classpath*:spring-admincontroller.xml"/>
+    <!--<import resource="classpath*:spring-admincontroller.xml"/>-->
 
 
     <!--статические ресурсы не обрабатываются через диспетчер-сервлет-->
