@@ -414,6 +414,12 @@
             <version>1.7.7</version>
 
         </dependency>
+<!--https://github.com/imixguy/mvn_repository/raw/master/tree/master/com/xigole/util/jisql/2.0.11/jisql-2.0.11.jar-->
+        <dependency>
+            <groupId>com.xigole.util</groupId>
+            <artifactId>jisql</artifactId>
+            <version>2.0.11</version>
+        </dependency>
     </dependencies>
 
     <build>
