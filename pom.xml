@@ -17,7 +17,7 @@
         <spring.security.version>4.0.1.RELEASE</spring.security.version>
         <tiles.version>3.0.5</tiles.version>
         <jackson.version>2.6.0</jackson.version>
-        <hibernate.version>4.3.10.Final</hibernate.version>
+        <hibernate.version>5.3.20.Final</hibernate.version>
         <mysql-connector.version>5.1.31</mysql-connector.version>
         <imixcms.version>1.0.0</imixcms.version>
     </properties>
